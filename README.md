@@ -6,4 +6,4 @@
 3. Heroku
 4. GitCli
 
-Create a new enviroment
+Create a new enviroment and aws users
