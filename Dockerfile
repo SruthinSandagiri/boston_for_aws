@@ -1,7 +1,9 @@
 FROM python:3.7
 
-COPY . /add
-WORKDIR /app
+WORKDIR /usr/src/app
+
+COPY ./requirements.txt ./
+
 # We copy just the requirements.txt first to leverage Docker cache
 
 RUN pip install --upgrade pip
